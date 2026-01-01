@@ -14,7 +14,7 @@ def add_problem():
     time_taken=input("Time taken(in ms): ").strip()
 
     if difficulty not in ["Easy","Medium","Hard"]:
-        print("Invalid difficulty")
+        print("Invalid difficulty!")
         return 
     date=input("Date(DD-MM-YYYY): ")
     
